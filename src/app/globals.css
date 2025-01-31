@@ -79,7 +79,7 @@
         right: 5%;
     }
 }
-@media (width < 1276px) {
+@media (width < 1284px) {
     .hero-home::before{
         left: 0%;
     }
