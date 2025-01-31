@@ -80,7 +80,7 @@ export default function Home() {
                   <h3 className={"text-2xl leading-tight capitalize mt-4"}>Public Wi-Fi <br/> Security </h3>
               </div>
               <div className={"border border-lightGrey p-4 text-center"}>
-                  <Image src={'/access.png'} width={500} height={500} alt={"access"}/>
+                  <Image src={'/no-more-bans.png'} width={500} height={500} alt={"access"}/>
                   <h3 className={"text-2xl leading-tight capitalize mt-4"}>Access Restricted <br/> Content  </h3>
               </div>
               <div className={"border border-lightGrey p-4 text-center"}>

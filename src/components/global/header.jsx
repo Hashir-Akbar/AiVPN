@@ -16,7 +16,7 @@ export default function Header (props){
         },
         {
             nav_item: "X",
-            href: "/x",
+            href: "https://x.com/ai_vpn?s=21/",
         },
         {
             nav_item: "AiVPN COIN",
