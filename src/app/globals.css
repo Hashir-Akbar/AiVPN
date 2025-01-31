@@ -71,6 +71,32 @@
     right: 14px;
 
 }
+@media (width < 1420px) {
+    .hero-home::before{
+        left: 5%;
+    }
+    .hero-home::after{
+        right: 5%;
+    }
+}
+@media (width < 1276px) {
+    .hero-home::before{
+        left: 0%;
+    }
+    .hero-home::after{
+        right: 0%;
+    }
+}
+@media (width < 1140px) {
+    .hero-home::before{
+        height: 180px;
+        width: 180px;
+    }
+    .hero-home::after{
+        height: 180px;
+        width: 180px;
+    }
+}
 
 @tailwind base;
 @tailwind components;
