@@ -1,21 +1,77 @@
+
+
+
+
+:root {
+    --font-geist-sans: 'Geist', sans-serif;
+    --font-dm-sans: 'DM Sans', sans-serif;
+    --font-dm-sans-mono: 'DM Mono', monospace;
+    --font-poppins: 'font-poppins', monospace;
+
+}
+
+
+.container{
+    @apply max-w-7xl mx-auto px-4 py-2 ;
+}
+.hero-home::before{
+    content: "";
+    position: absolute;
+    background-image: url("/robot.png");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 10%;
+}
+.hero-home::after{
+    content: "";
+    position: absolute;
+    background-image: url("/hero-badge.png");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 10%;
+}
+.gridInfoMiddle::before{
+    content: "";
+    position: absolute;
+    background-image: url("/btn.png");
+    width:200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gridInfoMiddle::after{
+    content: "";
+    position: absolute;
+    background-image: url("/btns-2.png");
+    width:300px;
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main_page_bg::after{
+    content: "";
+    position: absolute;
+    background-image: url("/arrow.png");
+    width:100px;
+    height:100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 14px;
+    right: 14px;
+
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}

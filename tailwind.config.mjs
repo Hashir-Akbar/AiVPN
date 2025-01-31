@@ -10,7 +10,17 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        lightGrey:"rgba(255, 255, 255, 0.08);",
+        "theme-dark" : "#06080B"
       },
+      fontFamily:{
+
+        geist: "var(--font-geist-sans)",
+        "geist-mono": "var(--font-geist-mono)",
+        "dm-sans": "var(--font-dm-sans)",
+        "dm-mono": "var(--font-dm-sans-mono)",
+        poppins: "var(--font-poppins)",
+      }
     },
   },
   plugins: [],
