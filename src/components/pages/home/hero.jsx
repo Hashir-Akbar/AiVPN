@@ -3,10 +3,6 @@ import Button from "@/components/global/button";
 
 
 export default function Hero () {
-
-
-
-
     return (
         <>
           <div className={"bg-[url('/Background.png')]   bg-no-repeat w-full bg-cover"}>
