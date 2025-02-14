@@ -87,13 +87,67 @@ const PrivacyPolicy = () => {
       <section className="mt-8">
         <h2 className="text-2xl font-semibold text-secondary">7. Compliance with Chrome Web Store Policies</h2>
         <p className="text-gray-300">We adhere to Chrome Web Store transparency and security requirements.</p>
+        <ul className="list-disc ml-6 space-y-2 text-gray-300">
+          <li>
+            <strong >Transparency:</strong>
+            This policy is linked in the Chrome Web Store Developer Dashboard.
+          </li>
+          <li>
+            <span className="text-gray-300 font-bold">Prominent Disclosure:</span>
+            The Extension’s core functionality (IP masking and encryption) is clearly described in the store listing. No hidden data collection occurs.
+          </li>
+          <li>
+            <span className="text-gray-300 font-bold">Updates:</span>
+            Policy changes will be posted on <a href="https://ai-vpn.com/policy" className="text-blue-400 hover:underline">ai-vpn.com/policy</a> with a revised effective date.
+          </li>
+        </ul>
       </section>
+
 
       <section className="mt-8">
         <h2 className="text-2xl font-semibold text-secondary">8. Contact Information</h2>
-        <p className="text-gray-300">Email: <a href="mailto:support@ai-vpn.com" className="text-blue-400 hover:underline">support@ai-vpn.com</a></p>
-        <p className="text-gray-300">Address: AI-VPN LLC, Privacy Team, 123 Security Lane, Datahaven, CA 94016</p>
+        <p className="text-gray-300 font-bold">For questions or concerns, contact:</p>
+        <p className="text-gray-300">
+          <span className="font-bold">
+          Email:
+
+          </span>
+           <a href="mailto:support@ai-vpn.com" className="text-blue-400 hover:underline">support@ai-vpn.com</a>
+        </p>
+        <p className="text-gray-300">
+        <span className="font-bold">
+           Address: 
+          </span> 
+          AI-VPN LLC, Privacy Team, 123 Security Lane, Datahaven, CA 94016
+        </p>
       </section>
+
+
+      <section className="mt-8  ">
+        <h2 className="text-2xl font-semibold text-secondary">9.Additional Compliance Notes</h2>
+        <ul className="list-disc ml-6 space-y-2 text-gray-300">
+          <li>
+            <span className=" text-gray-300">Chrome’s Limited Use Requirements:</span>
+            Data is used exclusively for VPN services and not for advertising, credit scoring, or unrelated monetization.
+          </li>
+          <li>
+            <span className=" text-gray-300">Ethical AI Use:</span>
+            While this extension does not employ AI, our infrastructure adheres to AI governance frameworks for future-proofing.
+          </li>
+          <li>
+            <span className=" text-gray-300">Policy Updates:</span>
+            Reviewed biannually to align with evolving regulations and Chrome Web Store guidelines.
+          </li>
+        </ul>
+      </section>
+
+      <br />
+
+
+      <p className="text-gray-300">
+        This policy ensures compliance with Chrome Web Store Program Policies  and global privacy standards (e.g., GDPR).
+        Thanks!
+      </p>
     </div>
   );
 };
